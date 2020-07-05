@@ -2,13 +2,13 @@ from src.modelos.endereco import Endereco
 from src.modelos.conta import Conta
 from src.modelos.usuario import Usuario
 
-endereco_rodrigo = Endereco('Sao Joao', 'Capela', '28')
+endereco_rodrigo = Endereco('Sao Joao', 'Capela', '28', '18195-000')
 
 rodrigo = Usuario('Rodrigo', 21, endereco_rodrigo)
 
 conta1 = Conta('1516-5', '4022-3', rodrigo)
 
-endereco_carla = Endereco('emilio thome', 'ipero', '255')
+endereco_carla = Endereco('emilio thome', 'ipero', '255', '18560-000')
 
 carla = Usuario('Carla', 18, endereco_carla)
 
