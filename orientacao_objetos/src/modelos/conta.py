@@ -43,7 +43,7 @@ class Conta:
                 self.sacar(valor)
                 outra_conta.depositar(valor)
             else:
-                print('saldo insuficiente')
+                print('nao tem saldo suficiente')
         else:
 
             if valor == 0:

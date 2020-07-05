@@ -2,7 +2,7 @@ from src.modelos.endereco import Endereco
 from src.modelos.conta import Conta
 from src.modelos.usuario import Usuario
 
-endereco_rodrigo = Endereco('Sao joao', 'Capela', '28')
+endereco_rodrigo = Endereco('Sao Joao', 'Capela', '28')
 
 rodrigo = Usuario('Rodrigo', 21, endereco_rodrigo)
 
